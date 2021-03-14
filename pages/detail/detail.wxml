@@ -1,0 +1,4 @@
+<!--pages/detail/detail.wxml-->
+<text>我是详情页</text>
+
+<button bindtap="back">返回</button>

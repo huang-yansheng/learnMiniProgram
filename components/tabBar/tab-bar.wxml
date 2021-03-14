@@ -1,0 +1,10 @@
+<view class="box">
+  <block wx:for="{{texts}}" wx:key="index" >
+    <view class='item {{currentIndex == index ? "active":""}}' 
+          bind:tap="btnClick" 
+          data-index="{{index}}"
+          >
+          <text class="item">{{item}}</text>
+    </view>
+  </block>
+</view>

@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/cart/cart",
     "pages/profile/profile",
-    "pages/category/category"
+    "pages/category/category",
+    "pages/detail/detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
@@ -17,10 +18,10 @@
     "selectedColor": "#ff5777",
     "list": [
       {
-      "pagePath": "pages/home/home",
-      "text": "我的",
-      "iconPath": "assets/tabbar/home.png",
-      "selectedIconPath": "assets/tabbar/homeA.png"
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/homeA.png"
       },
       {
         "pagePath": "pages/category/category",
@@ -40,7 +41,10 @@
         "iconPath": "assets/tabbar/my.png",
         "selectedIconPath": "assets/tabbar/myA.png"
       }
-      
-  ]
-  }
+    ]
+  },
+  "usingComponents": {
+    
+  },
+  "sitemapLocation": "sitemap38.json"
 }
